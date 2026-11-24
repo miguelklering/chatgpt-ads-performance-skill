@@ -1,0 +1,14 @@
+interface:
+  display_name: ChatGPT Ads Performance
+  short_description: Analyze, optimize, and monitor Ads campaigns
+  default_prompt: Use $chatgpt-ads-performance to audit my campaigns, diagnose performance
+    issues, and propose a safe optimization plan.
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
